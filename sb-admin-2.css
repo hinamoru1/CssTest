@@ -46,19 +46,19 @@
 .myBotMarg{
 	margin-bottom:3px;
 }
-
-@media screen and (min-width: 900px){
-.myAccordion{
-	overflow-y: scroll !important;
-	height:70vh !important;
-	background-color: black;	
+@media screen and (min-height: 820px) {
+	.myAccordion{
+		overflow-y: scroll !important;
+		height:70vh !important;	
+	}
 }
-body{
-	color: red;
+@media screen and (min-height: 620px) and (max-height: 819px) {
+	.myAccordion{
+		overflow-y: scroll !important;
+		height:50vh !important;	
+	}
 }
 
-
-}
 /* end of my costum CSS #Ours ----------------------------------- */ 
 
 
