@@ -41,14 +41,23 @@
 	border: dashed 1px #aaaaaa;
 }
 .noBorder{
-	border: none !important;
+	border: hidden;
 }
 .myBotMarg{
 	margin-bottom:3px;
 }
-#myAccordion{
+
+@media screen and (min-width: 900px){
+.myAccordion{
 	overflow-y: scroll !important;
-	height:50vh !important;
+	height:70vh !important;
+	background-color: black;	
+}
+body{
+	color: red;
+}
+
+
 }
 /* end of my costum CSS #Ours ----------------------------------- */ 
 
@@ -89,8 +98,7 @@ body {
   display: block;
 }
 .navbar-top-links .dropdown-menu li:last-child {
-  margin-right: 0;
-}
+	margin-right: 0;}
 .navbar-top-links .dropdown-menu li a {
   padding: 3px 20px;
   min-height: 0;
