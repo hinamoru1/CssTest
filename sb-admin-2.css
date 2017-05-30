@@ -40,6 +40,9 @@
 .mySeparateur{
 	border: dashed 1px #aaaaaa;
 }
+.noBorder{
+	border: none;
+}
 /* end of my costum CSS #Ours ----------------------------------- */ 
 
 
