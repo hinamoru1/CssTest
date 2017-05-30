@@ -43,6 +43,13 @@
 .noBorder{
 	border: none;
 }
+.myBotMarg{
+	margin-bottom:3px;
+}
+.myAccordion{
+	overflow-y: scroll;
+	height:50vh;
+}
 /* end of my costum CSS #Ours ----------------------------------- */ 
 
 
