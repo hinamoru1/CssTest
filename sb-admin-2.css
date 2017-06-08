@@ -10,12 +10,21 @@
 .myBoxSize{
 	height: 15vh !important;
 }
+.myBoxSizePlus{
+	height: 17vh !important;
+}
+.myBoxSizePhoto{
+	height: 17vh !important;
+}
 .myTuTu{
 	height: 15vh !important;
 	margin-top:-20vh !important;
 }
 .myBoxSizeDD{
 	height: 7vh !important;
+}
+.myBoxSizeDDPlus{
+	height: 9vh !important;
 }
 .selectwidthauto{
      width:auto !important;
@@ -37,6 +46,10 @@
 	margin-top:-3vh;
 	margin-right:1vh;
 }
+.mySaveButton{
+	margin-top:-6vh;
+}
+
 .mySeparateur{
 	border: dashed 1px #aaaaaa;
 }
