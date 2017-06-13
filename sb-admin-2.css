@@ -59,6 +59,9 @@
 .myBotMarg{
 	margin-bottom:3px;
 }
+.jsCall{
+	
+}
 @media screen and (min-height: 820px) {
 	.myAccordion{
 		overflow-y: scroll !important;
